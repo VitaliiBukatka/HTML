@@ -1,0 +1,36 @@
+html{
+    background-color: black;
+}
+.block1, .block2, .block3, .block4{
+    box-sizing: border-box;
+    padding: 10px;
+    margin-right: 50%;
+    margin-left: 45%;
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+
+}
+
+.block1{
+    color: #ff6f1f;
+    border: 5px solid #ff6f1f;
+    margin-top: 20%;
+}
+
+.block2{
+    color: #2efff2;
+    border: 5px solid #2efff2;
+}
+
+.block3{
+    color: #FF55A7FF;
+    border: 5px solid #FF55A7FF;
+}
+
+.block4{
+    color: #FF3F3FFF;
+    border: 5px solid #FF3F3FFF;
+}
