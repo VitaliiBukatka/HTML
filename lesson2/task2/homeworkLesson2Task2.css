@@ -1,9 +1,9 @@
 .block{
     margin-top: 100px;
-    width: 600px;
-    height: 300px;
+    width: 570px;
+    height: 270px;
     background-color: #818181FF;
-    box-shadow: #D5B792FF -40px -40px 60px 30px;
+    box-shadow: #D5B792FF -40px -20px 60px 30px;
 }
 
 .par{
