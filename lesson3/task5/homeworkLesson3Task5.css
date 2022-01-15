@@ -1,0 +1,42 @@
+body {
+    background-color: #08bcd4;
+}
+
+h1 {
+    color: #ff6f1f;
+}
+
+p {
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 10px;
+    display: flex;
+    background-color: #fefefe;
+    width: 700px;
+    height: 300px;
+    margin: 20px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.icon > i {
+    font-size: 100px;
+    color: #989898;
+}
+
+.text {
+    width: 60%;
+}
+
