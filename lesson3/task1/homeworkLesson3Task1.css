@@ -1,0 +1,21 @@
+.header, .leftPart, .rightPart{
+    height: 300px;
+    margin: 10px;
+}
+.header{
+    width: 1000px;
+    background-color: gray;
+}
+.footer{
+    display: flex;
+}
+
+.leftPart{
+    width: 600px;
+    background-color: cornsilk;
+}
+
+.rightPart{
+    width: 380px;
+    background-color: #ff6f1f;
+}
