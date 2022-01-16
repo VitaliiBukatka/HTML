@@ -1,0 +1,29 @@
+.headerPart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home, .about{
+    width: 49%;
+    height: 800px;
+    background-color: #246abb;
+}
+
+.kabobs{
+    width: 100%;
+    height: 300px;
+    background-color: #246abb;
+    margin-top: 20px;
+}
+
+.footerPart{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.block{
+    width: 32%;
+    height: 500px;
+    background-color: #18467b;
+}
+
