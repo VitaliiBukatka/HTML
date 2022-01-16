@@ -1,0 +1,69 @@
+.header, .hero, .sidebar, .mainContent, .extraContent, .related, .footer {
+    width: 100%;
+}
+
+.footer, .related, .body, .sidebar, .extraContent{
+    margin-top: 10px;
+}
+
+.content, .relatedPosts{
+    margin-left: 10px;
+}
+
+.header {
+    height: 100px;
+    background-color: #55d5eb;
+}
+
+.body, .related {
+    display: flex;
+}
+
+.heroSidebar {
+    width: 35%;
+}
+
+.content {
+    width: 65%;
+}
+
+.hero {
+    height: 300px;
+    background-color: #d7c9e3;
+}
+
+.sidebar {
+    height: 300px;
+    background-color: #a0c364;
+}
+
+.mainContent {
+    height: 400px;
+    background-color: #f5c634;
+}
+
+.extraContent {
+    height: 200px;
+    background-color: #8a8a8a;
+}
+
+.relatedImages {
+    width: 70%;
+    height: 180px;
+    background-color: #2db674;
+}
+
+.relatedPosts{
+    width: 30%;
+    height: 180px;
+    background-color: #f3ccde;
+}
+
+.footer{
+    height: 120px;
+    background-color: #fea602;
+}
+
+
+
+
