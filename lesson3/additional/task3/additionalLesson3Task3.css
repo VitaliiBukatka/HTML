@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background-color: #dedede;
+}
+
+.buttonCircle1, .buttonCircle2, .buttonCircle3 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.buttonCircle1 {
+    background-color: #e20406;
+}
+
+.buttonCircle2 {
+    background-color: #e1ca04;
+}
+
+.buttonCircle3 {
+    background-color: #74b21f;
+}
+
+.topFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    background-color: #dedede;
+}
+
+.topFooterButton1 {
+    height: 20px;
+    width: 40px;
+    background-color: #cccacb;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.topFooterButton2 {
+    width: 25px;
+    height: 20px;
+    background-color: #cccacb;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.topFooterInput {
+    width: 95%;
+    height: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.headerTop {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: #dadfe3;
+}
+
+.imgCircleWrap {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imgCircle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #aeb3b8;
+}
+
+.fourBlocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+    height: 100%;
+}
+
+.fourBlocksBl {
+    width: 200px;
+    height: 20px;
+    background-color: #aeb3b8;
+    border-radius: 5px;
+}
+
+.headerBody {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #dadfe3;
+}
+
+.lineTwoBlocks {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.whiteBlock {
+    width: 800px;
+    height: 45px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.grayBlock {
+    height: 60px;
+    width: 300px;
+    background-color: #aeb3b8;
+    border-radius: 30px;
+    position: relative;
+    right: 80px;
+}
+
+.destinations {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.topBlocks3 {
+    display: flex;
+    height: 250px;
+    justify-content: space-between;
+}
+
+.topBlocks {
+    width: 32%;
+    height: 100%;
+    background-color: #dadfe3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.middleBlocks2 {
+    display: flex;
+    height: 250px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.middleBlocksLeft {
+    width: 66%;
+    height: 100%;
+    background-color: #dadfe3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.middleBlocksRight {
+    width: 32%;
+    height: 100%;
+    background-color: #dadfe3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerBlocks2 {
+    display: flex;
+    height: 250px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.footerBlockLeft {
+    width: 32%;
+    height: 100%;
+    background-color: #dadfe3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerBlockRight {
+    width: 66%;
+    height: 100%;
+    background-color: #dadfe3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.offers {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.imgOffers {
+    width: 30%;
+    height: 100%;
+    background-color: #dadfe3;
+}
+
+.text {
+    width: 65%;
+    height: 100%;
+}
+
+.textTop {
+    height: 90%;
+    width: 100%;
+}
+
+.textBottom {
+    height: 10%;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+    margin-top: 10px;
+    background-color: #dadfe3;
+}
+
+.blockText {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+
+.footerRightBlock {
+    width: 25%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.footerRightBlockText {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerButton {
+    display: flex;
+    justify-content: center;
+}
+
+.footerButtonCircle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #c3c8cc;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
