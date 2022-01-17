@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header1 {
+    width: 100%;
+    height: 100px;
+    background-color: #989898;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerBlock {
+    width: 130px;
+    height: 60px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.wrap {
+    display: flex;
+}
+
+.leftSide2 {
+    width: 15%;
+    height: 1200px;
+    background-color: #ff6f1f;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.leftSide2Blocks {
+    width: 90%;
+    height: 60px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.rightSide {
+    width: 85%;
+    height: 1200px;
+}
+
+.top3 {
+    width: 100%;
+    height: 300px;
+    background-color: #2efff2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top3Block {
+    width: 90%;
+    height: 90%;
+    background-color: white;
+}
+
+.blocks4 {
+    width: 100%;
+    height: 150px;
+    background-color: #0e66a8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.blocks4Blocks {
+    height: 60px;
+    width: 20%;
+    background-color: white;
+}
+
+.wrap56 {
+    display: flex;
+}
+
+.blocks5 {
+    width: 80%;
+    height: 600px;
+    background-color: #7dcde3;
+}
+
+.blocks5Wrap {
+    display: flex;
+}
+
+.blocks5LeftSide, .blocks5RightSide {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blocks5LeftSideBlocks {
+    width: 90%;
+    height: 80px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.blocks5FooterWrap {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocks5Footer {
+    width: 150px;
+    height: 30px;
+    background-color: white;
+}
+
+.blocks6 {
+    width: 20%;
+    height: 600px;
+    background-color: #144c79;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blocks6Blocks {
+    height: 60px;
+    width: 90%;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: #25ff15;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerBlocks1 {
+    width: 80%;
+    height: 50px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.footerBlocks2 {
+    width: 30%;
+    height: 30px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+
+
+
+
