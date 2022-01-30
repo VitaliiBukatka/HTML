@@ -1,0 +1,821 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container, .header, .main, .box5, .box8, .box9 {
+    width: 1440px;
+}
+
+.header, .navMenu, .box4, .box1, .content4Wrap, .box9TopContent2, .box9TopContent, .box9Top, .box7RightContent, .box7,
+.box6, .content6, .content5, .vectorRight, .content1, .content4, .box5Wrap, .buttons, .box1Right, .items, .items_img3,
+.box2, .iconMessage, .box9Footer {
+    display: flex;
+}
+
+.header, .navMenu, .box1Right, .box8Txt, .content6, .content5, .vectorRight, .content1, .thirdHeader, .iconMessage {
+    align-items: center;
+}
+
+.header, .items_img3, .content1, .content5, .content6, .box7, .box9TopContent2, .box9TopContent {
+    justify-content: space-between;
+}
+
+.navMenu, .box1Right, .iconMessage {
+    justify-content: center;
+}
+
+.logo, .sFF, .tTS, .buttonLM, .box8Button, .box7LeftButton, .box6LeftButton {
+    box-sizing: border-box;
+}
+
+.logo, .box2, .box7, .line, .box9TopLogo {
+    margin-left: 32px;
+}
+
+.navMenu_item, .txt, .blackButton, .ms, .box9FooterTxt, .box8Button, .box8Txt, .pr, .box8Header, .box8Header1,
+.box7RightContentTxtFooter, .content1, .box7RightContentTxtHeader, .box7RightTxt, .box7LeftTxt, .box7LeftHeader,
+.box7LeftTop, .box6LeftButton, .box6LeftHeader, .box6LeftTxt, .box6LeftTop, .content6, .content5, .content4, .content2,
+.content3, .contentTop, .box5TxtHeader, .box5TxtTop, .button3CTTxt, .button3VQTxt, .button3CMTxt, .iconsContentParagraph,
+.iconsContentHeader, .txtSolPar, .txtSolCont, .txtSol, .box3Paragraph, .box3Content, .thirdHeader, .box2ContentP2,
+.box2ContentP, .secHeader, .tTS, .sFF, .paragraph {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navMenu_item, .blackButton, .pr, .ms, .content4, .box8Button, .box7RightContentTxtHeader, .box6LeftButton, .tTS, .sFF {
+    font-size: 16px;
+}
+
+.navMenu_item, .blackButton, .pr, .ms, .box8Button, .box7LeftTop, .box7RightContentTxtHeader, .box6LeftButton,
+.box6LeftTop, .box5TxtTop, .txtSol, .sFF, .tTS {
+    line-height: 24px;
+}
+
+.txt, .button3CMTxt, .button3VQTxt, .button3CTTxt {
+    font-size: 12px;
+}
+
+.blackButton, .buttons, .box7LeftButton, .box8Button, .box6LeftButton, .buttonLM, .sFF, .tTS {
+    height: 54px;
+}
+
+.blackButton, .itemsButton, .button3CM, .button3CT, .button3CT, .button3VQ {
+    border: none;
+}
+
+.main, .box1Left, .box1Right {
+    height: 886px;
+}
+
+.contentTop, .sFF, .secHeader, .box7RightContentTxtHeader, .box8ButtonP, .box7LeftButtonTxt, .content5, .box7LeftTxt,
+.box7LeftHeader, .box6LeftButtonTxt, .box6LeftHeader, .content6, .content4, .content1, .box5TxtHeader, .button3CTTxt,
+.iconsContentHeader, .txtSolCont, .box3Paragraph, .box3Content, .box2ContentP, .box2ContentP2, .thirdHeader, .buttonLMP {
+    color: #0B2330;
+}
+
+.paragraph, .box2ContentP2, .box7LeftHeader, .content6, .content5, .content1, .txtSolPar {
+    line-height: 32px;
+}
+
+.paragraph, .txtSolPar, .box5TxtTop, .box7LeftTop, .box6LeftTxt, .box6LeftTop, .content3, .content2, .iconsContentParagraph {
+    color: #375361;
+}
+
+.sFF, .tTS, .buttonLM, .button3CM, .box8Button, .box7LeftButton, .button3CT, .box6LeftButton, .button3VQ {
+    border-radius: 4px;
+}
+
+.vector2, .vector3, .vector4, .box3Relative, .photo1Relative {
+    position: relative;
+}
+
+.box2ContentP, .thirdHeader, .iconsContentHeader, .box7RightTxt, .box6LeftHeader {
+    font-size: 34px;
+}
+
+.box2ContentP, .thirdHeader, .iconsContentHeader, .box6LeftHeader, .box7RightTxt {
+    letter-spacing: 0.34px;
+}
+
+.box3, .txtSol, .txtSolCont, .box6LeftButton, .box6LeftTxt, .box6LeftTop, .box6LeftHeader, .buttons3, .buttonLM,
+.iconsContentParagraph, .iconsContentHeader, .txtSolPar, .iconMessage {
+    margin-left: 148px;
+}
+
+.box3Paragraph, .iconsContentParagraph, .content2, .content3, .box6LeftTxt, .box7LeftTxt, .box7RightContentTxtFooter, .box8Txt {
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.header {
+    height: 83px;
+}
+
+.logo {
+    width: 110px;
+}
+
+.navMenu {
+    margin-left: 170px;
+}
+
+.arrowIcon {
+    margin-left: 8px;
+    margin-top: 3px;
+    margin-right: 41px;
+}
+
+.logoImg {
+    width: 95px;
+    height: 36px;
+    margin-top: 16px;
+    margin-right: 170px;
+    margin-left: 4px;
+}
+
+.txt {
+    width: 104px;
+    height: 16px;
+    margin-bottom: 16px;
+}
+
+.blackButton {
+    width: 163px;
+    background-color: #0d2532;
+    margin-right: 32px;
+    border-radius: 5px;
+}
+
+.blackButtonP {
+    color: white;
+}
+
+.box1Left {
+    width: 840px;
+}
+
+.box1LeftWrap {
+    margin-left: 147px;
+    margin-top: 154px;
+}
+
+.contentTop {
+    width: 436px;
+    height: 256px;
+    margin-bottom: 32px;
+    font-size: 60px;
+    line-height: 64px;
+}
+
+.paragraph {
+    width: 435px;
+    height: 96px;
+    margin-bottom: 38px;
+    font-size: 22px;
+}
+
+.buttons {
+    width: 435px;
+}
+
+.sFF {
+    width: 163px;
+    background: #F9C600;
+    border: 1px solid #F9C600;
+}
+
+.tTS {
+    width: 156px;
+    margin-left: 16px;
+    color: #000000;
+    border: 1px solid #0B2330;
+}
+
+.box1Right {
+    width: 600px;
+    background-color: #f9c602;
+    flex-direction: column;
+}
+
+.vector {
+    margin-top: 774px;
+    width: 600px;
+    height: 36px;
+}
+
+.vector2 {
+    width: 160px;
+    height: 67px;
+    bottom: 10px;
+}
+
+.vector3 {
+    width: 600px;
+    height: 15px;
+    bottom: 25px;
+}
+
+.vector4 {
+    width: 100px;
+    height: 9px;
+    margin-left: -30px;
+    bottom: 12px;
+}
+
+.photo1Relative {
+    bottom: 714px;
+    left: 730px;
+    width: 608px;
+    height: 541px;
+}
+
+.secHeader {
+    width: 547px;
+    height: 96px;
+    font-size: 42px;
+    margin-top: 189px;
+    margin-left: 447px;
+}
+
+.items {
+    height: 200px;
+    width: 100%;
+    margin-top: 59px;
+    justify-content: space-around;
+}
+
+.items_img3 {
+    width: 153px;
+    height: 100%;
+    flex-direction: column;
+}
+
+.itemsButton {
+    background-color: white;
+    cursor: pointer;
+}
+
+.box2 {
+    width: 1376px;
+    height: 494px;
+    background: #51CEBC;
+    border-radius: 10px;
+    margin-top: 192px;
+}
+
+.box2Content {
+    width: 698px;
+    height: 100%;
+}
+
+.box2ContentP {
+    width: 557px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 114px;
+}
+
+.box2ContentP2 {
+    width: 533px;
+    height: 64px;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+.thirdHeader {
+    width: 711px;
+    height: 80px;
+    line-height: 40px;
+    margin-left: 365px;
+    margin-top: 191px;
+}
+
+.photoOnboard {
+    margin-top: 57px;
+    margin-left: 265px;
+    width: 911px;
+    height: 528px;
+}
+
+.box3 {
+    width: 1260px;
+    height: 537px;
+    background: #BD78F0;
+    border-radius: 10px;
+    margin-top: 160px;
+}
+
+.box3Content {
+    width: 485px;
+    height: 192px;
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: 0.42px;
+    padding-left: 582px;
+    padding-top: 103px;
+}
+
+.box3Paragraph {
+    width: 550px;
+    height: 56px;
+    padding-left: 582px;
+    padding-top: 39px;
+}
+
+.colBlack {
+    color: black;
+}
+
+.box3Relative {
+    width: 562px;
+    height: 409px;
+    bottom: 326px;
+    right: 116px;
+}
+
+.txtSol {
+    width: 94px;
+    height: 24px;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    color: #6A7981;
+    margin-top: 136px;
+}
+
+.txtSolCont {
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: 0.42px;
+    margin-top: 13px;
+    width: 593px;
+    height: 144px;
+}
+
+.txtSolPar {
+    width: 500px;
+    height: 32px;
+    font-size: 22px;
+    margin-top: 26px;
+}
+
+.iconMessage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #BD78F0;
+    margin-top: 226px;
+}
+
+.iconsContentHeader {
+    line-height: 40px;
+    width: 402px;
+    height: 40px;
+    margin-top: 34px;
+}
+
+.iconsContentParagraph {
+    width: 484px;
+    height: 84px;
+    margin-top: 29px;
+}
+
+.buttonLM {
+    width: 144px;
+    border: 1px solid #0B2330;
+    background: white;
+    margin-top: 64px;
+}
+
+.picture1 {
+    margin-top: 219px;
+    margin-left: 263px;
+}
+
+.picture2 {
+    margin-top: 121px;
+    margin-left: 263px;
+}
+
+.picture3 {
+    margin-top: 97px;
+    margin-left: 241px;
+}
+
+.buttons3 {
+    width: 543px;
+    height: 23px;
+    margin-top: 10px;
+}
+
+.button3CM {
+    width: 228px;
+    height: 23px;
+    background: #E7EAEB;
+}
+
+.button3CMTxt {
+    line-height: 16px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #61757E;
+}
+
+.button3VQ {
+    width: 147px;
+    height: 23px;
+    background: #E7EAEB;
+}
+
+.button3VQTxt {
+    line-height: 16px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #61757E;
+}
+
+.button3CT {
+    width: 152px;
+    height: 23px;
+    background: #FE9F28;
+}
+
+.button3CTTxt {
+    line-height: 16px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.box5 {
+    height: 960px;
+    background: #F2EDE7;
+    margin-top: 148px;
+}
+
+.box5TxtTop {
+    width: 84px;
+    height: 24px;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    padding-top: 96px;
+    margin-left: 122px;
+}
+
+.box5TxtHeader {
+    width: 1064px;
+    height: 128px;
+    font-size: 60px;
+    line-height: 64px;
+    letter-spacing: 0.6px;
+    margin-top: 10px;
+    margin-left: 122px;
+}
+
+.box5WrapLeft {
+    margin-top: 122px;
+    margin-left: 122px;
+}
+
+.box5WrapRight {
+    width: 588px;
+    height: 484px;
+    border-top: 2px solid #C9316F;
+    margin-top: 120px;
+    margin-left: 141px;
+}
+
+.content1 {
+    height: 80px;
+    width: 100%;
+    font-size: 24px;
+}
+
+.content2 {
+    width: 419px;
+    height: 28px;
+}
+
+.content3 {
+    width: 563px;
+    height: 84px;
+    margin-top: 36px;
+}
+
+.content4 {
+    width: 86px;
+    height: 28px;
+    margin-top: 35px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.vectorRight {
+    margin-top: 35px;
+    margin-left: 8px;
+}
+
+.content5 {
+    width: 100%;
+    height: 80px;
+    border-top: 2px solid #C3CACD;
+    border-bottom: 2px solid #C3CACD;
+    margin-top: 23px;
+    font-size: 24px;
+}
+
+.content6 {
+    width: 100%;
+    height: 80px;
+    border-bottom: 2px solid #C3CACD;
+    font-size: 24px;
+}
+
+.box6LeftTop {
+    width: 122px;
+    height: 24px;
+    margin-top: 184px;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+
+.box6LeftHeader {
+    width: 669px;
+    height: 120px;
+    margin-top: 15px;
+    line-height: 40px;
+}
+
+.box6LeftTxt {
+    width: 667px;
+    height: 84px;
+    margin-top: 37px;
+}
+
+.box6LeftButton {
+    width: 208px;
+    margin-top: 36px;
+    background: #F9C600;
+    border: 1px solid #F9C600;
+}
+
+.box6Right {
+    margin-top: 160px;
+    margin-left: 183px;
+}
+
+.box7 {
+    width: 1376px;
+    height: 584px;
+    margin-top: 240px;
+    background: #F2EDE7;
+    border-radius: 10px;
+}
+
+.box7Left {
+    width: 562px;
+    height: 584px;
+    background: #F2EDE7;
+    border-radius: 10px 0 0 10px;
+}
+
+.box7LeftTop {
+    width: 103px;
+    height: 24px;
+    margin-top: 80px;
+    margin-left: 116px;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+}
+
+.box7LeftHeader {
+    width: 314px;
+    height: 64px;
+    margin-top: 17px;
+    margin-left: 116px;
+    font-size: 24px;
+}
+
+.box7LeftTxt {
+    width: 325px;
+    height: 84px;
+    margin-top: 27px;
+    margin-left: 116px;
+}
+
+.box7LeftButton {
+    width: 140px;
+    margin-top: 36px;
+    margin-left: 116px;
+    border: 1px solid #0B2330;
+    background: none;
+}
+
+.box7Right {
+    width: 794px;
+    height: 584px;
+    background: #F9C600;
+    border-radius: 0 10px 10px 0;
+}
+
+.vectorLapy {
+    position: absolute;
+}
+
+.box7RightTxt {
+    width: 557px;
+    height: 240px;
+    line-height: 40px;
+    margin-top: 79px;
+    margin-left: 116px;
+}
+
+.photoMan {
+    width: 80px;
+    height: 80px;
+    margin-top: 81px;
+    margin-left: 116px;
+    border-radius: 50%;
+}
+
+.box7RightContentTxtHeader {
+    width: 117px;
+    height: 24px;
+    margin-top: 95px;
+    margin-left: 24px;
+}
+
+.box7RightContentTxtFooter {
+    width: 340px;
+    height: 28px;
+    margin-left: 24px;
+    color: #2F3F48;
+}
+
+.box8 {
+    height: 423px;
+    background: #0B2330;
+    margin-top: 46px;
+}
+
+.box8Header, .box8Header1 {
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+}
+
+.box8Header {
+    padding-top: 53px;
+    margin-left: 415px;
+}
+
+.box8Header1 {
+    margin-left: 468px;
+}
+
+.box8Txt {
+    width: 642px;
+    height: 56px;
+    color: #FFFFFF;
+    margin-top: 31px;
+    margin-left: 399px;
+}
+
+.box8Button {
+    width: 163px;
+    background: #F9C600;
+    border: 1px solid #F9C600;
+    margin-top: 36px;
+    margin-left: 638px;
+}
+
+.line {
+    width: 1376px;
+    background: #375361;
+    height: 1px;
+    margin-top: 95px;
+}
+
+.box9 {
+    height: 678px;
+    background: #0B2330;
+}
+
+.box9TopLogo {
+    margin-top: 78px;
+}
+
+.box9TopContent {
+    margin-top: 78px;
+    margin-left: 109px;
+    width: 162px;
+    height: 290px;
+    flex-direction: column;
+}
+
+.pr {
+    color: #F9C600;
+}
+
+.ms {
+    color: #94A0A4;
+}
+
+.box9TopContent2 {
+    height: 240px;
+    width: 126px;
+    margin-top: 78px;
+    margin-left: 101px;
+    flex-direction: column;
+}
+
+.box9FooterTxt {
+    font-size: 14px;
+    line-height: 20px;
+    color: #94A0A4;
+    margin-top: 69px;
+    margin-left: 268px;
+}
+
+.face, .linkedin, .twitter {
+    width: 28px;
+    height: 28px;
+    margin-top: 65px;
+    margin-left: 589px;
+}
+
+.h213 {
+    height: 213px;
+}
+
+.w506 {
+    width: 506px;
+}
+
+.h112 {
+    height: 112px;
+}
+
+.mt36 {
+    margin-top: 36px;
+}
+
+.mt113 {
+    margin-top: 113px;
+}
+
+.mt140 {
+    margin-top: 140px;
+}
+
+.mr24 {
+    margin-right: 24px;
+}
+
+.mr48 {
+    margin-right: 48px;
+}
+
+.mr174 {
+    margin-right: 174px;
+}
+
+.mr177 {
+    margin-right: 177px;
+}
+
+.ml24 {
+    margin-left: 24px;
+}
+
+.ml74 {
+    margin-left: 74px;
+}
+
+.ml174 {
+    margin-left: 174px;
+}
+
+.ml638 {
+    margin-left: 638px;
+}
+
+.bg-green {
+    background: #51CEBC;
+}
+
+.bg-orange {
+    background: #FE9F28;
+}
+
+
+
+
+
+

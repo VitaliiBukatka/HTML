@@ -1,0 +1,132 @@
+@media screen and (max-width: 768px) {
+    .container {
+        width: 768px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+     {
+        display: none;
+    }
+
+    .navMenu_item {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container, .header, .main, .box5, .box8, .box9 {
+        width: 768px;
+        flex-direction: column;
+    }
+
+    .blackButton {
+        margin-left: 60px;
+    }
+
+    .header {
+        height: 300px;
+        flex-wrap: wrap;
+    }
+
+    .secHeader, .box9TopLogo, .box1Right, .photoOnboard, .photo1Relative, .pictures, .box5, .items, .imgVelo,
+    .box3Relative {
+        display: none;
+    }
+
+    .box1, .main {
+        height: 600px;
+    }
+
+    .box2, .box3, .box4, .box7Right {
+        width: 600px;
+    }
+
+    .thirdHeader {
+        width: 600px;
+        text-align: center;
+    }
+
+    .box3Content, .box3Paragraph {
+        padding: 30px;
+    }
+
+    .box6, .box7, .box9 {
+        flex-direction: column;
+        width: 600px;
+    }
+
+    .box6Right {
+        margin-left: 233px;
+    }
+
+    .box7 {
+        margin-bottom: 300px;
+    }
+
+    .box7Left {
+        margin-bottom: 50px;
+    }
+
+    .box7Right {
+        border-radius: 0 0 10px 10px;
+    }
+
+    .photoMan {
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+
+    .box8 {
+        width: 600px;
+        flex-direction: column;
+        padding-right: 20px;
+        margin-top: 100px;
+        box-sizing: border-box;
+    }
+
+    .box8Txt {
+        height: 100px;
+        text-align: left;
+        width: 580px;
+    }
+
+    .line {
+        width: 600px;
+        border: none;
+    }
+
+    .box9Top {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .box9 {
+        height: 1000px;
+    }
+
+    .box9Footer {
+        width: 600px;
+        margin-top: 200px;
+    }
+
+    .ml-0 {
+        margin-left: 0;
+    }
+
+    .ml-20 {
+        margin-left: 20px;
+    }
+
+    .ml-150 {
+        margin-left: 150px;
+    }
+
+    .mt-50 {
+        margin-top: 50px;
+    }
+
+    .mt-20 {
+        margin-top: 20px;
+    }
+}
